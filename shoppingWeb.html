@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shoppingWeb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head> 
+<body>
+    <div class="container">
+       <div class="navbar">
+        <div class="toggle_button">
+            <i style="font-size:24px" class="fa">&#xf0c9;</i>
+        </div>
+            <div class="logo">
+                <h3>SKINN</h3>
+            </div>
+       <ul class="links">
+           <li><a href="">MEN</a></li>
+            <li><a href="">WOMEN</a></li>
+            <li><a href="">COLLECTIONS</a></li>
+            <li><a href="">GIFTING</a></li>
+            <li><a href="">FASTRACK FRAGRANCES</a></li>
+            <li><a href="">DEODORANTS</a></li>
+        </ul>
+    
+        <div class="icon">
+            <i class="fa fa-search" style="font-size:24px"></i>
+            <i style="font-size:24px" class="fa">&#xf07a;</i>
+            <i class="fa fa-heart-o" style="font-size:22px"></i>
+            <i style="font-size:24px" class="fa">&#xf007;</i>
+        </div>
+</div>
+<div class="dropdown_menu ">
+    <li><a href="">MEN</a></li>
+    <li><a href="">WOMEN</a></li>
+    <li><a href="">COLLECTIONS</a></li>
+    <li><a href="">GIFTING</a></li>
+    <li><a href="">FASTRACK FRAGRANCES</a></li>
+    <li><a href="">DEODORANTS</a></li>
+</div>
+
+
+<script>
+    const toggleButton =document.querySelector('.toggle_button')
+    const toggleButtonIcon =document.querySelector('.toggle_button i')
+    const dropDownMenu =document.querySelector('.dropdown_menu')
+
+    toggleButton.onclick = function(){
+        dropdown_menu.classList.toggle('open')
+    }
+
+</script>
+
+   <!-- Swiper -->
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw850bee21/Desk_FlankerLaunchBanner.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw87e64cf1/Desk_100&Disc.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw267a8567/images/homepage/Tales_50_D.png" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw4f137027/images/homepage/Discovery_Set_Bannner_d.png" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw3cfc5300/BodyMist25_Desktop_1920x720.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw8e78670f/Deo_Bundle_Banner-Desk.png" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  <div class="box1">
+    <div class="left">
+      <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw62863080/images/homepage/women-perfume.png" alt="">
+      
+    </div>
+    <div class="right">
+        <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-Library/default/dw1000b2f9/images/homepage/men-perfume.png" alt="">
+    </div>
+  </div>
+   <div class="trending">
+    <h1>Trending Products</h1>
+   </div>
+    
+   <div class="collection1">
+    <div class="box">
+    <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dwfc2bb79b/images/Skinn/hi-res/FW24PC1_1.jpg?sw=360&sh=360" alt="" >
+    <p class="para"><b>SKINN Nox Pour Femme Eau De Parfum</b></p>
+    <p><b>₹ 3,995</b></p>
+  </div>
+  <div class="box">
+    <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dwe754b5d9/images/Skinn/hi-res/FCFM01PC_1.jpg?sw=360&sh=360" alt="">
+    <p class="para"><b> Raw Instinct</b></p>
+    <p><b>₹ 2,895</b></p>r̥
+  </div>
+  <div class="box">
+    <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dw6724c73d/images/Skinn/hi-res/FNXW02PC_1.jpg?sw=360&sh=360" alt="">
+    <p class="para"><b>SKINN Nox Pour Femme 100ml Eau De Parfum...</b></p>
+    <p><b>₹ 4,995</b></p>
+  </div>
+  <div class="box">
+    <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dw27a2ee2a/images/Skinn/hi-res/FNXM02PC_1.jpg?sw=360&sh=360" alt="">
+    <p class="para"><b>SKINN Nox Oud Femme 100ml Eau De Parfum For him</b></p>
+    <p><b>₹ 4,995</b></p>
+  </div>
+    
+   </div>
+
+   <div class="black">
+    <div class="pgl_img">
+      <img src="https://www.skinn.in/on/demandware.static/-/Sites-Skinn-Library/default/dw794f0199/images/homepage/glass-flower.png" alt="">
+    </div>
+    <div class="word">
+    <h1>Learn About The Different Perfume Notes</h1>
+    <p>
+     
+          Everyone loves a good perfume! But have you <br> 
+          thought about the different fragrance notes that <br>
+           come together to make you go crazy over a <br>
+            particular one –like Skinn Sheer or Skinn Nude? <br>
+          Let’s delve deep into the world of perfumes to find <br>
+           out what makes them special to us!
+      </p>
+    </div>
+  </div>
+    
+
+    <div class="Top_Sellers">
+      <h1>Top Sellers</h1>
+     </div>
+
+    <div class="collection1">
+      <div class="box">
+      <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dw1dffdd99/images/Skinn/hi-res/NCFM14PK1_1.jpg?sw=360&sh=360" alt="" >
+      <p class="para"><b>Skinn by Titan Amalfi Bleu 90ML Perfume for Men</b></p>
+      <p><b>₹ 2,516 </b></p>
+    </div>
+    <div class="box">
+      <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dwa5abd124/images/Skinn/hi-res/FW03PFC_1.jpg?sw=360&sh=360" alt="">
+      <p class="para"><b>Skinn by Titan Nude 100 ML Perfume for Women EDP</b></p>
+      <p><b>₹ 2,595  </b></p>
+    </div>
+    <div class="box">
+      <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dw646351e0/images/Skinn/hi-res/FW11PA5_1.jpg?sw=360&sh=360" alt="">
+      <p class="para"><b>SKINN Discovery Set - Women</b></p>
+      <p><b>₹ 395  </b></p>
+    </div>
+    <div class="box">
+      <img src="https://www.skinn.in/dw/image/v2/BKMH_PRD/on/demandware.static/-/Sites-Skinn-product-catalog/default/dwcf5e6576/images/Skinn/hi-res/FM02PFC_1.jpg?sw=360&sh=360" alt="">
+      <p class="para"><b>Skinn by Titan Steele 100 ML Perfume for Men EDP</b></p>
+      <p><b>₹ 2,595  </b></p>
+    </div>
+      
+     </div>
+
+
+     <div class="bg_image">
+      <h1>
+        Some Gifts Speak Beyond Words
+      </h1>
+      <p >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>        Suscipit  delectus blanditiis, doloribus eaque atque  <br> tenetur recusandae, voluptas consequuntur   <br>rem quos nihil ea totam obcaecati illo sed  <br> sapiente doloremque voluptatibus   <br>dolorem quidem aliquid. Quibusdam   <br>sint sit perferendis, quo consequatur <br> quas obcaecati.
+      </p>
+     </div>
+  
+    <div class="last">
+      <div class="left1">
+          <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/27/17988299617866327/standard_resolution.png" alt="">
+      </div>
+      <div class="right1">
+            <div class="up">
+                <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/34/17855250191957534/standard_resolution.png" alt="">
+                <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/58/18084008830341458/standard_resolution.png" alt="">
+                <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/71/17935338542551571/standard_resolution.png" alt="">
+            </div>
+            <div class="down">
+                 <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/82/17990708938930482/standard_resolution.png" alt="">
+                 <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/58/17953500518548558/standard_resolution.png" alt="">
+                 <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/43/17951915786599543/standard_resolution.png" alt="">
+            </div>
+            
+      </div>
+    </div>
+
+    <div class="store-locator">
+      <h1>FIND A STORE NEAR YOU</h1>
+      <div class="location-options">
+          <button class="location-button">Use My Current Location</button>
+          <input type="text" placeholder="Enter a pincode or city" class="location-input">
+          <button class="search-button">Search</button>
+      </div>
+  </div>
+
+  <div class="benefits">
+      <div class="benefit-item">
+          <span class="benefit-icon">⭐</span>
+          <h3>100% ORIGINAL</h3>
+          <p>All products are original and go through strict quality check.</p>
+      </div>
+      <div class="benefit-item">
+          <span class="benefit-icon">🔄</span>
+          <h3>7 Day RETURN</h3>
+          <p>Use our hassle-free method to return.</p>
+      </div>
+      <div class="benefit-item">
+          <span class="benefit-icon">🚚</span>
+          <h3>Shipping</h3>
+          <p>Free Shipping & Returns all across India.</p>
+      </div>
+  </div>
+  <div class="description">
+    <h2>Indulge in a world of scents: Perfumes for All</h2>
+    <p>
+        Indulge in a world of scents with an enchanting collection from SKINN By Titan that captivates the senses and transports you to a realm of olfactory bliss.
+        Our exquisite range of perfumes offers an unparalleled experience crafted to cater to every individual's unique taste and style. 
+        Immerse yourself in a symphony of fragrances, where floral bouquets dance with hints of citrus, and warm notes of vanilla embrace woody undertones.
+    </p>
+    <p>
+        SKINN by Titan perfumes showcase a diverse palette, catering to both traditional and contemporary preferences, ensuring there is a scent to suit every occasion and mood.
+        From fresh and invigorating aromas that energize the senses to elegant and sophisticated blends that exude timeless allure, this collection embraces the art of perfumery in all its glory.
+    </p>
+</div>
+   
+<footer class="footer">
+  <div class="footer-content">
+      <div class="footer-section logo-section">
+          <img src="logo.png" alt="SKINN Logo" class="logo"> <!-- Replace with actual logo image path -->
+          <p>SKINN</p>
+      </div>
+
+      <div class="footer-section info-section">
+          <h3>Help & Information</h3>
+          <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Help & Contact</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">TataNeu Coins</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-section subscribe-section">
+          <h3>Sign Up To Receive Offers & News</h3>
+          <input type="email" placeholder="Enter your email address">
+          <button>SUBSCRIBE</button>
+      </div>
+  </div>
+
+  <div class="footer-social">
+      <p>Follow and Connect Us</p>
+      <div class="social-icons">
+          <a href="#"><img src="facebook.png" alt="Facebook"></a> <!-- Replace with actual icon paths -->
+          <a href="#"><img src="instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="whatsapp.png" alt="WhatsApp"></a>
+          <a href="#"><img src="email.png" alt="Email"></a>
+      </div>
+  </div>
+
+  <div class="footer-bottom">
+      <p>&copy; 2024 Titan Company Limited. All Rights Reserved | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+      <div class="payment-icons">
+          <img src="visa.png" alt="Visa">
+          <img src="paypal.png" alt="PayPal">
+          <img src="rupay.png" alt="RuPay">
+          <img src="axisbank.png" alt="Axis Bank">
+          <img src="maestro.png" alt="Maestro">
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
